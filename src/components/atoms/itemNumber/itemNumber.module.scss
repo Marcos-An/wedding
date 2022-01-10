@@ -1,0 +1,12 @@
+.itemNumber {
+    font-size: 0.65rem;
+    text-align: center;
+    background-color: var(--secondary);
+    color: var(--white);
+    border-radius: 100vh;
+    min-height: 2.5rem;
+    min-width: 2.5rem;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}

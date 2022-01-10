@@ -1,0 +1,44 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+html { 
+  scroll-behavior: smooth;
+}
+
+ 
+@media (max-width: 720px) {
+ 
+}
+
+:root {
+  --grey: #b1b1b1;
+  --primary: #F9F8F3;
+  --secondary: #9A0900;
+  --black: #3F3F3F;
+  --white: #fff;
+}
+
+button {
+  font-family: "Poppins", sans-serif;
+  border: none;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+ 
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}

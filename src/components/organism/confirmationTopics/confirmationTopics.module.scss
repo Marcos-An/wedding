@@ -1,0 +1,40 @@
+.container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 3.438rem;
+  width: 100%;
+}
+
+.firstSection, .secondSection, .thirdSection{
+  height: 7.188rem;
+  padding: 2rem 3rem;
+  display: flex;
+  align-items: center;  
+  text-align: left;
+  p{
+    margin-left: 1rem;
+  }
+}
+
+.firstSection { 
+  background-color: #F4F3EC;
+ 
+}
+
+.secondSection {
+  background-color: #F9F8F3; 
+}
+
+.thirdSection {
+  background-color: #FEFDF7; 
+} 
+
+
+@media (max-width: 720px) {
+  .container{
+    display: grid;
+    grid-template-columns:  1fr;
+    width: 100vw;
+    margin-top: 3rem;
+  }
+}
