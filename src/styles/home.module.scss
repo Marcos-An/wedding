@@ -1,38 +1,42 @@
 .banner {
-  height: 31.25rem;
-  background-color: var(--primary);
+  height: 30vw;
+  max-height: 31.25rem;
+  background-image: url("/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .headerContainer {
-  height: 6.25rem; 
+  height: 6.25rem;
   background-color: var(--secondary);
-  display: flex; 
+  display: flex;
   justify-content: center;
   align-items: center;
-} 
+}
 
 .countDownContainer {
   height: 28.125rem;
   display: flex;
   flex-direction: column;
-  justify-content: center;  
+  justify-content: center;
 }
 
 .giftListContainer {
   padding: 5rem 10rem;
   display: flex;
   flex-direction: column;
-  justify-content: center;  
+  justify-content: center;
   align-items: center;
-  background-color: var(--primary); 
-  text-align: center; 
+  background-color: var(--primary);
+  text-align: center;
 }
 
 .storeButtonsContainer {
   display: flex;
   justify-content: center;
-  align-items: center; 
-  margin-top: 3.438rem; 
+  align-items: center;
+  margin-top: 3.438rem;
 
   a:first-child {
     margin-right: 2.813rem;
@@ -44,30 +48,25 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center; 
+  align-items: center;
   text-align: center;
 }
 
 @media (max-width: 720px) {
-  .banner {
-    height: 25rem;
-    background-color: var(--primary);
-  } 
   .countDownContainer {
-    height: 20rem; 
-  }  
+    height: 20rem;
+  }
   .giftListContainer {
     padding: 3rem 2rem;
-  } 
+  }
   .storeButtonsContainer {
-    flex-direction: column; 
+    flex-direction: column;
     a:first-child {
-      margin-right:0rem;
+      margin-right: 0rem;
       margin-bottom: 1.813rem;
     }
   }
   .confirmPresence {
     padding: 5rem 2rem;
   }
-  
 }
