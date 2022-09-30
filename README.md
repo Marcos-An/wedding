@@ -5,6 +5,6 @@
 
 This is mt wedding site, I created it to center some links and guest list
 
-<a href="[https://border-beauty.vercel.app/](https://wedding-rose-phi.vercel.app/)" target="_blank">
+<a href="https://wedding-rose-phi.vercel.app/" target="_blank">
   Try Yourself!
 </a>
